@@ -1,0 +1,69 @@
+QMenuBar{
+background-color:rgb(33,33,33);
+
+}
+QMenuBar:item{
+font:bold;
+font-size:14px;
+font-family:"等线";
+color:rgb(255,255,255);
+border:0px;
+padding:9px;
+}
+QMenuBar:item:pressed{
+color:rgb(35,168,242);
+
+}
+QMenu{
+background-color:rgb(33,33,33);
+font-size:14px;
+font-family:"等线";
+color:rgb(255,255,255);
+}
+QMenu:pressed{
+color:rgb(35,168,242);
+}
+/**********QTreeView**********/
+QHeaderView::section {
+    height:25px;
+    color:white;
+    background:#505050;
+    border-left:0px solid gray;
+    border-right:1px solid gray;
+    border-top:0px solid gray;
+    border-bottom:0px solid gray;
+}
+
+QTreeView {
+    border:none;
+    background: rgb(33,33,33);
+    show-decoration-selected: 1;
+}
+QTreeView::item {
+    height: 25px;
+    border: none;
+    color: white;
+    background: transparent;
+}
+QTreeView::item:hover {
+    background: transparent;
+}
+QTreeView::item:selected{
+    background: #1E90FF;
+}
+QTreeView::branch {
+    background: transparent;
+}
+QTreeView::branch:hover {
+    background: transparent;
+}
+QTreeView::branch:selected {
+    background: #1E90FF;
+}
+QTreeView::branch:closed:has-children{
+    image: url(:/img/treeclose.png);
+}
+QTreeView::branch:open:has-children{
+    image: url(:/img/treeopen.png);
+}
+QStatusBar{background:purple;}

@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>default.qss</file>
+        <file>RedYellow.qss</file>
+        <file>img/app.png</file>
+        <file>img/app_1.png</file>
+        <file>img/bug.png</file>
+        <file>img/bug_1.png</file>
+        <file>img/file.png</file>
+        <file>img/file_1.png</file>
+        <file>img/git.png</file>
+        <file>img/git_1.png</file>
+        <file>img/logo.png</file>
+        <file>img/search.png</file>
+        <file>img/search_1.png</file>
+    </qresource>
+</RCC>
